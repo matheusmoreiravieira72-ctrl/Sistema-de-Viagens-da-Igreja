@@ -1,0 +1,75 @@
+/* CONCEITO EXTRA: Classe CSS 
+   É um seletor que permite aplicar o mesmo estilo a vários elementos HTML. 
+*/
+
+/* Define a fonte principal, cores de fundo e remove margens padrão */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* Cor de fundo leve */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 20px;
+}
+
+/* Container principal para limitar a largura e centralizar o layout */
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 12px; /* Arredonda as bordas */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Sombra suave para dar profundidade */
+}
+
+/* Estilização dos títulos */
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Estilização do formulário e entradas */
+.input-group {
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilo dos campos de texto e número */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho do campo */
+}
+
+/* Estilo do botão de cadastro */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #27ae60; /* Verde para representar sucesso/confirmação */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; /* Muda o cursor para a 'mãozinha' ao passar o mouse */
+    transition: background 0.3s; /* Suaviza a mudança de cor */
+}
+
+button:hover {
+    background-color: #219150; /* Escurece o verde ao passar o mouse */
+}
+
+/* Estilo dos cards dos passageiros que aparecerão na lista */
+.card-passageiro {
+    background: #ecf0f1;
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 5px solid #27ae60; /* Barra lateral decorativa */
+    border-radius: 4px;
+}
